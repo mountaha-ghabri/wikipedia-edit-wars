@@ -1,0 +1,49 @@
+{
+  "wikipedia_api": {
+    "base_url": "https://en.wikipedia.org/w/api.php",
+    "user_agent": "WikiEditWarsProject/1.0 (Educational Research)",
+    "rate_limit_delay": 0.1
+  },
+  "data_collection": {
+    "target_records": 10000000,
+    "batch_size": 100000,
+    "dump_base_url": "https://dumps.wikimedia.org/other/mediawiki_content_history/",
+    "dump_wiki": "enwiki",
+    "dump_url": "AUTO",
+    "dump_limit": 10000010,
+    "categories": [
+      "Political controversies",
+      "Religious controversies",
+      "Scientific controversies",
+      "Historical controversies",
+      "Conspiracy theories",
+      "Pseudoscience",
+      "Alternative medicine",
+      "Fringe theories",
+      "Freedom of speech",
+      "Human rights",
+      "LGBT rights",
+      "Abortion",
+      "Climate change",
+      "Israel–Palestine conflict",
+      "United States politics", 
+      "September 11 attacks",
+      "Iraq War",
+      "Global Warming",
+      "Climate change",
+      "the north pole",
+      "Donald Trump",
+      "George W. Bush",
+      "Barack Obama",
+      "Israel",
+      "Iran War",
+      "Palestine"
+    ]
+  },
+  "spark": {
+    "master": "spark://spark-master:7077",
+    "app_name": "WikipediaEditWars",
+    "executor_memory": "4g",
+    "driver_memory": "2g"
+  }
+}

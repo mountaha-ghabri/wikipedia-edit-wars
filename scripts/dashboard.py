@@ -1007,7 +1007,7 @@ st.markdown(f"""
     <span style="color:{K['text']};font-weight:700">Montaha Ghabri</span>
     &nbsp;&nbsp;|&nbsp;&nbsp;
     <span style="color:{K['a1']};font-family:'JetBrains Mono',monospace">
-      Tunisian Business School · 2025-2026
+      Tunis Business School · 2025-2026
     </span>
     &nbsp;&nbsp;|&nbsp;&nbsp;
     Apache Spark · PySpark MLlib · Streamlit · 11.1M Wikipedia Edits
